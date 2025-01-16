@@ -5,5 +5,5 @@ body {
   font-size: 50px;
 }
 section {
-  background-image: url(img/фульфрина.jpeg);
+  background-image: url("img/фульфрина.jpeg");
 }
