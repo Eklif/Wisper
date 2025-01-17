@@ -7,5 +7,5 @@ body {
 html {
   background-image: url("..//img/фульфрина.jpeg");
   background-size: auto;
-  background-repeat: repeat;
+ background-attachment: scroll;
 }
