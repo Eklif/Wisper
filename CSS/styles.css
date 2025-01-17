@@ -6,6 +6,5 @@ body {
 }
 html {
   background-image: url("..//img/фульфрина.jpeg");
-  background-size: auto;
- background-attachment: scroll;
+  background-position: 25% 75%;
 }
