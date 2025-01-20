@@ -9,3 +9,7 @@ html {
   background-repeat: no-repeat;
   background-size: 35%;
 }
+
+input[type="text1"] {
+    width: 200px;
+}
