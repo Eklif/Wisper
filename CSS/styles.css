@@ -10,6 +10,6 @@ html {
   background-size: 35%;
 }
 
-input[type="text1"] {
-    width: 200px;
+input {
+  width: 100%;
 }
