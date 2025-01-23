@@ -14,3 +14,10 @@ textarea {
   height: 100px;
   resize: none;
 }
+form {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: auto;
+  width: 500px;
+  border: 2px #000 solid;
+}
