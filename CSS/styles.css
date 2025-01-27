@@ -22,5 +22,6 @@ form {
   border: 2px #000 solid;
 }
 .element {
+    padding: 1rem;
     margin-bottom: 1rem;
 }
