@@ -20,4 +20,5 @@ form {
   margin: auto;
   width: 500px;
   border: 2px #000 solid;
+  padding: 10px;
 }
