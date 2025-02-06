@@ -16,6 +16,24 @@
 		<button type="button">Отправить сообщение</button>
 		<input tupe="button" </input>
 	</form>	
+	<script>
+		// захватим UI-элементы для работы с ними
+		const textEl = document.getElementById('feedback');
+		const speakEl = document.getElementById('speak');
+
+		// перехватим клик по кнопке
+		speakEl.addEventListener('click', speakText);
+
+		function speakText() {
+  		// остановим все, что уже синтезируется в речь
+  		window.speechSynthesis.cancel();
+
+  		// прочитать текст
+  		const text = textEl.value;
+  		const utterance = new SpeechSynthesisUtterance(feedback);
+ 		 window.speechSynthesis.speak(utterance);
+		}
+	</script>
 	<div class="form-control" id="feedback1">
 		<div style="margin-top: 50px;"></div>
 		<textarea id='feedback1' name='feedback1' rows='4' cols='50'>
