@@ -30,7 +30,7 @@
 
   		// прочитать текст
   		const text = textEl.value;
-  		const utterance = new SpeechSynthesisUtterance(feedback);
+  		const utterance = new SpeechSynthesisUtterance();
  		 window.speechSynthesis.speak(utterance);
 		}
 	</script>
