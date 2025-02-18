@@ -16,12 +16,17 @@
 		<button id="button">Отправить сообщение</button>
 		<input tupe="button" </input>
 	</form>	
+
 	<script>
+function join_ym()
+{
+	const УУ = document.getElementById("ext").value;
+	const MM =document.getElementById("feedback").value
+	document.getElementById('joint').value = YY+MM;
+}
 		// захватим UI-элементы для работы с ними
 		
-		const textE3 = document.getElementById('ext').value;
-		const textE2 = document.getElementById('feedback').value;
-		const textEl ="textE3" +"textE2";
+		const textE1 = document.getElementById("join_ym").value;
 		const speakEl = document.getElementById('button');
 
 		// перехватим клик по кнопке
