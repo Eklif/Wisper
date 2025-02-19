@@ -22,10 +22,6 @@
 	<script>
 	
 		// захватим UI-элементы для работы с ними
-		
-		const xx =document.getElementById("ext").value;
-	 	const yy =document.getElementById("feedback").value;
-		const total=xx.concat(" ", yy);
 		const textE1 =document.getElementById("ext");
 		
 		
@@ -40,7 +36,7 @@
   		// прочитать текст
   		const text = textEl.value;
   		const utterance = new SpeechSynthesisUtterance(text);
- 		 window.speechSynthesis.speak(utterance);
+ 		window.speechSynthesis.speak(utterance);
 		}
 	</script>
 	<div class="form-control" id="feedback1">
