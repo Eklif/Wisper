@@ -31,8 +31,9 @@
 		const textE2 =document.getElementById("ext").value;
 		const textE3 =document.getElementById("feedback").value;	
 		const total=textE2.concat(" ", textE3);
-	
+		return total;
 		}	
+		
 		function speakText() {
   		// остановим все, что уже синтезируется в речь
   		window.speechSynthesis.cancel();
