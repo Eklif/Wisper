@@ -13,8 +13,8 @@
 		<label for='feedback'>Введите сообщение:</label>
 		<textarea id='feedback' name='feedback' rows='4' cols='50'>
 		</textarea>
-		<button id="button1">Отправить сообщение</button>
-		<input tupe="button1" </input>
+		<button id="button">Отправить сообщение</button>
+		<input tupe="button" </input>
 		<button onclick="join_ym()">Нажми меня</button>
                 
 	</form>	
@@ -36,8 +36,8 @@
 		
 		
 		// перехватим клик по кнопке
-		const speakEl = document.getElementById('button1');
-		speakEl.addEventListener('click', speakText, RR);
+		const speakEl = document.getElementById('button');
+		speakEl.addEventListener('click', speakText);
 
 		function speakText() {
   		// остановим все, что уже синтезируется в речь
