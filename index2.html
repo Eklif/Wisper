@@ -28,13 +28,13 @@
 	 alert(total);
         }
 		// захватим UI-элементы для работы с ними
-		function RR() {
+		
 		const xx =document.getElementById("ext").value;
 	 	const yy =document.getElementById("feedback").value;
 		const total=xx.concat(" ", yy);
-		const textE1 =total.value;
+		const textE1 =document.getElementById("ext");
 		
-		}
+		
 		// перехватим клик по кнопке
 		const speakEl = document.getElementById('button1');
 		speakEl.addEventListener('click', speakText, RR);
