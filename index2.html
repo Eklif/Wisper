@@ -22,10 +22,10 @@
 	<script>
 	document.getElementById('myButton').onclick = join_ym;	
         function join_ym() {
-	 const xx =document.getElementById("ext");
+	 const xx =document.getElementById("ext").value;
 	 const yy =document.getElementById("feedback").value;
-	 
-	 alert(xx, yy);
+	 const total=(xx.value+yy.value)
+	 alert(total);
         }
 		// захватим UI-элементы для работы с ними
 		
