@@ -28,8 +28,10 @@
 	 alert(total);
         }
 		// захватим UI-элементы для работы с ними
-		
-		const textE1 = document.getElementById("join_ym()").value;
+		const xx =document.getElementById("ext").value;
+	 	const yy =document.getElementById("feedback").value;
+		const total=xx.concat(" ", yy);
+		const textE1 = document.getElementById(total);
 		const speakEl = document.getElementById('button');
 
 		// перехватим клик по кнопке
