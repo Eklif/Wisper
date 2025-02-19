@@ -21,14 +21,15 @@
 
 	<script>
 		// захватим UI-элементы для работы с ними
-		const textE2 =document.getElementById("ext").value;
-		const textE3 =document.getElementById("feedback").value;
+
 		const speakEl = document.getElementById('button');
 		
 		// перехватим клик по кнопке
-		speakEl.addEventListener('click', speakText, pp);
-
+		speakEl.addEventListener('click', speakText);
+                speakEl.addEventListener('click', pp);
 		function pp() {
+		const textE2 =document.getElementById("ext").value;
+		const textE3 =document.getElementById("feedback").value;	
 		const total=textE2.concat(" ", textE3);
 		alert(total);
 		}	
