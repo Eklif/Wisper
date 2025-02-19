@@ -13,8 +13,8 @@
 		<label for='feedback'>Введите сообщение:</label>
 		<textarea id='feedback' name='feedback' rows='4' cols='50'>
 		</textarea>
-		<button id="button">Отправить сообщение</button>
-		<input tupe="button" </input>
+		<button id="button1">Отправить сообщение</button>
+		<input tupe="button1" </input>
 		<button onclick="join_ym()">Нажми меня</button>
                 
 	</form>	
@@ -32,7 +32,7 @@
 	 	const yy =document.getElementById("feedback").value;
 		const total=xx.concat(" ", yy);
 		const textE1 =total.value;
-		const speakEl = document.getElementById('button');
+		const speakEl = document.getElementById('button1');
 
 		// перехватим клик по кнопке
 		speakEl.addEventListener('click', speakText);
