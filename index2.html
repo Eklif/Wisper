@@ -20,13 +20,11 @@
 	</form>	
 
 	<script>
-	
 		// захватим UI-элементы для работы с ними
-		const textE1 =document.getElementById("ext");
-		
+		const textEl =document.getElementById("feedback");
+		const speakEl = document.getElementById('button');
 		
 		// перехватим клик по кнопке
-		const speakEl = document.getElementById('button');
 		speakEl.addEventListener('click', speakText);
 
 		function speakText() {
