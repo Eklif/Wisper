@@ -38,7 +38,7 @@
   		window.speechSynthesis.cancel();
 
   		// прочитать текст
-  		const text = pp.value;
+  		const text = pp();
   		const utterance = new SpeechSynthesisUtterance(text);
  		window.speechSynthesis.speak(utterance);
 		}
